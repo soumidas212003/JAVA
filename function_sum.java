@@ -12,5 +12,6 @@ public class function_sum {
         int num2=sc.nextInt();
         int sum= sumCalculate(num1,num2);
         System.out.print("Sum is : "+sum);
+        sc.close();
     }
 }
