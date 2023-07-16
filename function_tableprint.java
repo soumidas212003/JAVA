@@ -12,5 +12,6 @@ public class function_tableprint {
         System.out.print("Enter n value : ");
         int n=sc.nextInt();
         tablePrint(n);
+        sc.close();
     }
 }
