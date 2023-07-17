@@ -9,5 +9,6 @@ public class EvenNum {
                 System.out.print(i+" ");
             }
         }
-    }
+        sc.close();
+    }   
 }
