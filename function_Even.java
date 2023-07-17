@@ -12,5 +12,6 @@ public class function_Even {
         System.out.print("Enter any number: ");
         int num=sc.nextInt();
         evenOdd(num);
+        sc.close();
     }
 }
