@@ -10,10 +10,10 @@ public class HollowRectangle_Pattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n value: ");
         int n=sc.nextInt();
-        System.out.println("Enter m value: ");
+        System.out.print("Enter m value: ");
         int m=sc.nextInt();
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++){
+            for(int j=1;j<=m;j++){
                 if(i==1||j==1||i==n||j==m){
                     System.out.print("*");
                 }
@@ -23,5 +23,6 @@ public class HollowRectangle_Pattern {
             }
             System.out.println();
         }
+        sc.close();
    } 
 }
