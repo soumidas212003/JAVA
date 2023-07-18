@@ -9,5 +9,6 @@ public class function_circumferencecircle {
         System.out.print("Enter radius value: ");
         double r=sc.nextDouble();
         System.out.println("Circumference of a circle is: "+circumferenceCircle(r));
+        sc.close();
     }
 }
