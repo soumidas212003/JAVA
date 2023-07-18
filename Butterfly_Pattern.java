@@ -42,5 +42,6 @@ public class Butterfly_Pattern {
             }
             System.out.println();   
         }
+        sc.close();
     } 
 }
