@@ -6,5 +6,6 @@ public class Circlearea {
         System.out.println("Enter radius: ");
         int r = sc.nextInt();
         System.out.print("Area of circle is : "+(3.14*(r*r)));
+        sc.close();
     }
 }
