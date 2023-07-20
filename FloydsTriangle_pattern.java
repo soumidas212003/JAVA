@@ -20,5 +20,6 @@ public class FloydsTriangle_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }       
 }
