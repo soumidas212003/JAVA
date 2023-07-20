@@ -14,5 +14,6 @@ public class function_average {
         System.out.print("Enter 3rd number: ");
         int num3=sc.nextInt();
         System.out.print("Average is : "+numAverage(num1,num2,num3));
+        sc.close();
     }
 }
