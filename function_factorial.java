@@ -12,5 +12,6 @@ public class function_factorial {
         System.out.print("Enter a number : ");
         int num=sc.nextInt();
         System.out.print("Factorial is : "+factorial(num));
+        sc.close();
     }
 }
