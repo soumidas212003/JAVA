@@ -29,5 +29,6 @@ public class MenudrivenMarks {
             System.out.print("Want to continue? (yes(1) or no(0)) : ");
             input = sc.nextInt();   
         }while(input==1);
+        sc.close();
     }  
 }
