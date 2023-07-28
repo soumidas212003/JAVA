@@ -20,5 +20,6 @@ public class HalfPyramid_Pattern180 {
             }
             System.out.println();
         }
+        sc.close();
    } 
 }
