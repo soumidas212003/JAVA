@@ -17,5 +17,6 @@ public class HalfPyramidnum_Pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
