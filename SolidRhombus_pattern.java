@@ -22,5 +22,6 @@ public class SolidRhombus_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
